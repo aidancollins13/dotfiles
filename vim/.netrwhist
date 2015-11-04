@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/aidan/.config/termite'
+let g:netrw_dirhist_2='/home/aidan/.ssh'
+let g:netrw_dirhist_3='/usr/etc'
+let g:netrw_dirhist_4='/home/aidan/.vim/bundle/vim-notes/misc/notes/user'
+let g:netrw_dirhist_5='/home/aidan/.vim/bundle/vim-notes/misc'
+let g:netrw_dirhist_6='/home/aidan/.vim/bundle/vim-notes/misc/notes/user'
+let g:netrw_dirhist_7='/home/aidan/.vim/bundle/vim-notes/misc'
+let g:netrw_dirhist_8='/home/aidan/.vim/bundle/vim-notes/misc/notes/user'
+let g:netrw_dirhist_9='/home/aidan/Pictures/Wallpapers'
