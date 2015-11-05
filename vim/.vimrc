@@ -73,3 +73,5 @@ autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 hi TabLineFill ctermfg=LightBlue ctermbg=none
 hi TabLine ctermfg=Blue ctermbg=DarkGrey
 hi TabLineSel ctermfg=DarkGrey ctermbg=Blue
+hi WildMenu ctermfg=White ctermbg=DarkBlue
+hi StatusLine ctermbg=White
