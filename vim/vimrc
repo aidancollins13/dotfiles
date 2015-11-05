@@ -66,6 +66,7 @@ set expandtab
 set softtabstop=4
 set shiftwidth=4
 map <F2> :NERDTreeToggle<CR>
+inoremap <S-Tab> <C-d>
 let g:airline_theme='molokai'
 
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
