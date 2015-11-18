@@ -65,6 +65,7 @@ set tabstop=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4
+set clipboard=unnamedplus
 map <F2> :NERDTreeToggle<CR>
 inoremap <S-Tab> <C-d>
 let g:airline_theme='molokai'
@@ -77,3 +78,4 @@ hi TabLine ctermfg=Blue ctermbg=DarkGrey
 hi TabLineSel ctermfg=DarkGrey ctermbg=Blue
 hi WildMenu ctermfg=White ctermbg=DarkBlue
 hi StatusLine ctermbg=White
+hi Visual ctermbg=darkgrey 
