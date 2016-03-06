@@ -48,8 +48,7 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-colorscheme jellybeans
-let g:jellybeans_background_color_256='NONE'
+colorscheme default
 set colorcolumn=+1
 set encoding=utf-8
 syntax on
@@ -65,17 +64,16 @@ set tabstop=4
 set expandtab
 set softtabstop=4
 set shiftwidth=4
-set clipboard=unnamedplus
+set clipboard=unnamed
 map <F2> :NERDTreeToggle<CR>
 inoremap <S-Tab> <C-d>
-let g:airline_theme='molokai'
 
 autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
-hi TabLineFill ctermfg=LightBlue ctermbg=none
-hi TabLine ctermfg=Blue ctermbg=DarkGrey
-hi TabLineSel ctermfg=DarkGrey ctermbg=Blue
+hi TabLineFill ctermfg=darkgrey ctermbg=none
+hi TabLine ctermfg=DarkBlue ctermbg=DarkGrey
+hi TabLineSel ctermfg=DarkGrey ctermbg=DarkBlue
 hi WildMenu ctermfg=White ctermbg=DarkBlue
 hi StatusLine ctermbg=White
-hi Visual ctermbg=darkgrey 
+hi Visual ctermbg=grey 

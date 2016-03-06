@@ -1,8 +1,13 @@
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/aidan/.zshrc'
+HYPHEN_INSENSTIVE="true"
+COMPLETION_WATING_DOTS="true"
 
 autoload -Uz compinit
 compinit
+autoload -Uz promptinit
+promptinit
+prompt paradox
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
