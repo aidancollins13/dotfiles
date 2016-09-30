@@ -1,4 +1,4 @@
-set number
+set number                    " Line numbers
 set nocompatible              " be iMproved, required
 set mouse=a
 filetype off                  " required
@@ -48,29 +48,29 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
-colorscheme default
-set colorcolumn=+1
+colorscheme default                         " use my terminal config
+set colorcolumn=+1                          "this adds a column at 80 char mark (for python and things)
 set encoding=utf-8
 syntax on
-let g:airline#extensions#tabline#enabled = 0
-set laststatus=2
-let g:airline_powerline_fonts = 1
-set wildmenu
-set cursorline
-set noswapfile
-set noshowmode
-set showcmd
-set tabstop=4
-set expandtab
-set softtabstop=4
-set shiftwidth=4
-set clipboard=unnamed
-map <F2> :NERDTreeToggle<CR>
-inoremap <S-Tab> <C-d>
+let g:airline#extensions#tabline#enabled = 0 " This enables some airline functionality
+set laststatus=2                            "  Always enables status line
+let g:airline_powerline_fonts = 1           " UTF-8 font
+set wildmenu                                " emables wilemenu 
+set cursorline                              " highlights the current line
+set noswapfile                              " this disables the backup files and the warnings you get
+set noshowmode                              " hides the mode status
+set showcmd                                 " shows the command in the bottom right
+set tabstop=4                               " these 2 lines make the TAB key enter 4 spaces instead
+set expandtab                               " 
+set softtabstop=4                           " lets you delete the 4space tabs as one character>
+set shiftwidth=4                            " lets >> and << work wiht 4 space tab
+set clipboard=unnamed                       " makes the clipboard a little more intuitive
+map <F2> :NERDTreeToggle<CR>                " binds f2 to the nertdree plugin
 
-autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
+autocmd CursorMovedI * if pumvisible() == 0|pclose|endif "these commands close the popup menu when entering and leaving insert mode
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
+" change some of the colors that don't look to great in my terminal 
 hi TabLineFill ctermfg=darkgrey ctermbg=none
 hi TabLine ctermfg=Blue ctermbg=DarkGrey
 hi TabLineSel ctermfg=DarkGrey ctermbg=Blue

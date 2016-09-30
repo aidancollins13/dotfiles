@@ -6,7 +6,7 @@ autoload -Uz compinit
 compinit
 autoload -Uz promptinit
 promptinit
-prompt paradox
+prompt pure
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
