@@ -1,5 +1,4 @@
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/aidan/.zshrc'
 HYPHEN_INSENSTIVE="true"
 COMPLETION_WATING_DOTS="true"
 
@@ -15,12 +14,13 @@ HISTSIZE=1000
 SAVEHIST=1000
 # End of lines configured by zsh-newuser-install
 zstyle ':completion:*' menu select
-eval $(dircolors ~/.dircolors)
 export DESKTOP_SESSION=i3
 export EDITOR=vim
 export LANGUAGE=en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export TERM=xterm-termite
+export GREP_COLORS='1;37;41'  
+export GREP_COLOR='1;37;41'  
 alias wireshark="LIBOVERLAY_SCROLLBAR=0 /usr/bin/wireshark"
-cd /home/aidan
+bindkey "^R" history-incremental-search-backward

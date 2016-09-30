@@ -72,8 +72,8 @@ autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
 autocmd InsertLeave * if pumvisible() == 0|pclose|endif
 
 hi TabLineFill ctermfg=darkgrey ctermbg=none
-hi TabLine ctermfg=DarkBlue ctermbg=DarkGrey
-hi TabLineSel ctermfg=DarkGrey ctermbg=DarkBlue
+hi TabLine ctermfg=Blue ctermbg=DarkGrey
+hi TabLineSel ctermfg=DarkGrey ctermbg=Blue
 hi WildMenu ctermfg=White ctermbg=DarkBlue
-hi StatusLine ctermbg=White
+hi StatusLine ctermbg=DarkGrey
 hi Visual ctermbg=grey 
