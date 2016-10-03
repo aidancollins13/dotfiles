@@ -175,7 +175,7 @@ bar {
   }
 }
 exec --no-startup-id xcompmgr
-exec --no-startup-id sh  /home/aidan/Scripts/random_wallpaper.sh
+exec --no-startup-id feh --bg-scale /home/guy/pics/wallpapers/spook.png
 client.focused #85678f #85678f #ffffff #dddddd
 client.focused_inactive #333333 #333333 #888888 #292d2e
 client.unfocused #333333 #333333 #888888 #292d2e
